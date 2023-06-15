@@ -25,7 +25,7 @@ def predict():
 
     output = round(prediction[0], 2)
 
-    if output == 0:
+    if output == 1:
         out = 'Anda terkena Diabetes'
     else:
         out = 'Anda tidak terkena Diabetes'
